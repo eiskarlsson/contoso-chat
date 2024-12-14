@@ -332,12 +332,12 @@ Additionally, we have added a [GitHub Action tool](https://github.com/microsoft/
 ## Workshop 
 
 The sample has a `docs/workshop` folder with step-by-step guidance for developers, to help you deconstruct the codebase, and understand how to to provision, ideate, build, evaluate, and deploy, the application yourself, with your own data. 
- - The workshop may be offered as an _instructor-guided option_ (e.g., on [Microsoft AI Tour](https://aitour.microsoft.com))
+ - The workshop may be offered as an _instructor-guided option_ (e.g., on [Microsoft AI Tour](https://LIMBODATINGCHAT.microsoft.com))
  - The workshop can be completed at home as a **self-paced lab** with your own subscription.
 
 ### Lab Guide
 
-1. [View Workshop Online](https://aka.ms/aitour/contoso-chat/workshop) - view a pre-built workshop version in your browser
+1. [View Workshop Online](https://aka.ms/LIMBODATINGCHAT/contoso-chat/workshop) - view a pre-built workshop version in your browser
 1. **View Workshop Locally** - The workshop is built using Mkdocs. To preview it locally, 
     - install mkdocs: `pip install mkdocs-material`
     - switch to folder: `cd docs/workshop`

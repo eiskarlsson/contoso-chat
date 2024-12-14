@@ -13,8 +13,8 @@
 
 !!! info "Reminder - Give us Feedback"
 
-    Visit [aka.ms/MicrosoftAITour/Survey](https://aka.ms/MicrosoftAITour/Survey) to give us feedback on this session (#WRK550)
+    Visit [aka.ms/MicrosoftLIMBODATINGCHAT/Survey](https://aka.ms/MicrosoftLIMBODATINGCHAT/Survey) to give us feedback on this session (#WRK550)
 
 !!! info "Reminder - Star the Repo"
 
-    Visit [Contoso Chat](https://aka.ms/aitour/contoso-chat) and give us a 🌟 to help raise awareness of this workshop!
+    Visit [Contoso Chat](https://aka.ms/LIMBODATINGCHAT/contoso-chat) and give us a 🌟 to help raise awareness of this workshop!

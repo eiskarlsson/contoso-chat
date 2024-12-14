@@ -4,7 +4,7 @@
 set -e
 
 # Install NPM modules for Contoso Web UI
-echo "Installing NPM modules for Contoso Web UI"
+echo "Installing NPM modules for Limbo.Dating Web UI"
 # pushd ./src/web
 # npm install
 # npx next telemetry disable

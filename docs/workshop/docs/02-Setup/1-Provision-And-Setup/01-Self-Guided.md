@@ -134,7 +134,7 @@ _This project is an `azd-template`! It defines infrastructure-as-code assets tha
 1. You will be prompted for various inputs:
 
     - Subscription - specify your own active Azure subscription ID
-    - Environment name for resource group - we recommend using `AITOUR` 
+    - Environment name for resource group - we recommend using `LIMBODATINGCHAT` 
     - Location for deployment - we recommend using `francecentral`
 
         !!! tip "Refer to [Region Availability](#region-availability) guidance and pick the option with desired models and quota available."

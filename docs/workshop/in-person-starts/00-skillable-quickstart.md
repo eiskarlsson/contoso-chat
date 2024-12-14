@@ -1,4 +1,4 @@
-<!-- This was the docs/skillable-getstarted.md file from aitour-fy25 -->
+<!-- This was the docs/skillable-getstarted.md file from LIMBODATINGCHAT-fy25 -->
 
 # Build a Retail Copilot Code-First on Azure AI
 
@@ -14,8 +14,8 @@ To preprovision resources:
 
 ```
 
-- Launch CodeSpaces on ++https://github.com/revodavid/contoso-chat/tree/aitour-fy25++
-  - or, `git clone -b aitour-fy25 --single-branch https://github.com/revodavid/contoso-chat`
+- Launch CodeSpaces on ++https://github.com/revodavid/contoso-chat/tree/LIMBODATINGCHAT-fy25++
+  - or, `git clone -b LIMBODATINGCHAT-fy25 --single-branch https://github.com/revodavid/contoso-chat`
 - Follow the instructions in [0-Preprovision.md](0-Preprovision.md)
 
 ## Pre-Requisites
@@ -67,9 +67,9 @@ GitHub Codespaces will be our development environment for this workshop. You wil
    
    * You now have a copy (known as a fork) of this workshop repository in your own GitHub account! Feel free to play with it, you won't break anything.
 
-1. Use the branch selection drop-down on the left side that now reads **main** and select the branch **aitour-fy25**.
+1. Use the branch selection drop-down on the left side that now reads **main** and select the branch **LIMBODATINGCHAT-fy25**.
 
-1. Click the green **<> Code** button in the top-right part of the page, click the **Codespaces** tab, and then click **Create codespace on aitour-fy25**.
+1. Click the green **<> Code** button in the top-right part of the page, click the **Codespaces** tab, and then click **Create codespace on LIMBODATINGCHAT-fy25**.
 
 1. This step takes a few minutes. The instructor will give you an overview of the session, and then you can begin work on your own in the Codespaces environment in your browser when it's ready.
 
@@ -85,17 +85,17 @@ Launch `cmd` in VM.
 
 Delete an existing contoso-chat folder if it exists.
 
-+++git clone -b aitour-fy25 --single-branch https://github.com/revodavid/contoso-chat+++
++++git clone -b LIMBODATINGCHAT-fy25 --single-branch https://github.com/revodavid/contoso-chat+++
 
 +++cd contoso-chat+++
 
-+++azd env new AITOUR --location francecentral+++
++++azd env new LIMBODATINGCHAT --location francecentral+++
 
 Log in with Azure Credentials below:
 
 +++azd auth login+++
 
-+++azd up -e AITOUR+++
++++azd up -e LIMBODATINGCHAT+++
 
 Select default subscription, press ENTER.
 

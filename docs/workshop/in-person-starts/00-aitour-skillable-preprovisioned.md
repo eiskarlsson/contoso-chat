@@ -1,4 +1,4 @@
-<!-- This was the docs/skillable-getstarted.md file from aitour-fy25 -->
+<!-- This was the docs/skillable-getstarted.md file from LIMBODATINGCHAT-fy25 -->
 
 # Build a Retail Copilot Code-First on Azure AI
 
@@ -14,7 +14,7 @@ To get started in this workshop, open the lab instructions in your browser.
 
 2. **Visit the link below**, and follow the instructions from there. (TIP: Click the link to copy it to your clipboard.)
 
-++https://aka.ms/aitour/contoso-chat/workshop++
+++https://aka.ms/LIMBODATINGCHAT/contoso-chat/workshop++
 
 ## Azure Credentials
 

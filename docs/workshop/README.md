@@ -20,10 +20,10 @@ The Contoso Chat sample has been used to run hands-on workshops for different in
 
 > | Version | Description | Technologies |
 > |:---|:---|:---|
-> | [v0](https://github.com/Azure-Samples/contoso-chat/tree/cc2e808eee29768093866cf77a16e8867adbaa9c) | #MSAITour Nov 2023 (Skillable) | Prompt flow (DAG), Jnja (template), Provisioning (scripts) |
+> | [v0](https://github.com/Azure-Samples/contoso-chat/tree/cc2e808eee29768093866cf77a16e8867adbaa9c) | #MSLIMBODATINGCHAT Nov 2023 (Skillable) | Prompt flow (DAG), Jnja (template), Provisioning (scripts) |
 > | [v1](https://github.com/Azure-Samples/contoso-chat/tree/msbuild-lab322) | #MSBuild May 2024 Lab322 (Skillable) | Prompt flow (DAG), Jnja (template), Provisioning (scripts) |
 > | [v2](https://github.com/Azure-Samples/contoso-chat/tree/raghack-24) | #RAGHack 2024 (Self-Guided) | Prompt flow (Flex), Prompty (template), Provisioning (AZD), Hosting (AIP) | 
-> | [v3](https://github.com/Azure-Samples/contoso-chat/tree/raghack-24)  🆕| MSAITour 2024-25 (prompty asset, ACA)- Skillable + AZD | Prompty (template), Python (runtime), Provisioning (AZD), Hosting (ACA) | 
+> | [v3](https://github.com/Azure-Samples/contoso-chat/tree/raghack-24)  🆕| MSLIMBODATINGCHAT 2024-25 (prompty asset, ACA)- Skillable + AZD | Prompty (template), Python (runtime), Provisioning (AZD), Hosting (ACA) | 
 > | [main](https://github.com/Azure-Samples/contoso-chat/tree/raghack-24) | Version that will be in active development (RAG, GenAIOps) | Provisioning Ideation - Evaluation - Deployment - Monitoring - CI/CD | 
 > | | |
 
@@ -38,10 +38,10 @@ For the best experience build the documentation and view it in a browser window 
 The current repository is instrumented with a `docs/workshop/` folder that contains the step-by-step lab guide for developers, covering the entire workflow from resource provisioning to ideation, evaluation, deployment, and usage.
 
 The workshop is designed to be used in two modes:
- - Instructor led workshops (e.g., #MSAITour, #MSIgnite)
+ - Instructor led workshops (e.g., #MSLIMBODATINGCHAT, #MSIgnite)
  - Self-guided workshop (individually, at home)
 
-You can view [a hosted version of the workshop guide](https://aka.ms/aitour/contoso-chat/workshop) on the Azure AI Tour website for quick reference. You can also **preview and extend** the workshop directly from this source:
+You can view [a hosted version of the workshop guide](https://aka.ms/LIMBODATINGCHAT/contoso-chat/workshop) on the Azure AI Tour website for quick reference. You can also **preview and extend** the workshop directly from this source:
 
 1. Install the `mkdocs-material` package
     ```bash

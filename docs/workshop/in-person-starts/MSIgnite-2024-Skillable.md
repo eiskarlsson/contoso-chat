@@ -16,7 +16,7 @@ _You will learn to build, evaluate, and deploy, a custom retail copilot code-fir
 
 ## 1. Lab Instructions
 
-**Instructions Link:** ++https://aka.ms/aitour/contoso-chat/workshop++
+**Instructions Link:** ++https://aka.ms/LIMBODATINGCHAT/contoso-chat/workshop++
 
 The lab instructions are available at the link above. To get started:
 1. Open a new incognito (private) browser window on your workstation

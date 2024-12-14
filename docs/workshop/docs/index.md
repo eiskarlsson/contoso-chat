@@ -2,7 +2,7 @@
 
 The workshop teaches you to **build, evaluate, and deploy a retail copilot** code-first on Azure AI. 
 
-You can complete it as a **self-guided** workshop at home. Or you can register for an **instructor-led** workshop at specific events like the [Microsoft AI Tour (2024-2025)](https://aka.ms/aitour) and [Microsoft Ignite 2024](https://ignite.microsoft.com/en-US/sessions?search=LAB401). The primary difference will be in the initial setup steps and the Azure subscription used.
+You can complete it as a **self-guided** workshop at home. Or you can register for an **instructor-led** workshop at specific events like the [Microsoft AI Tour (2024-2025)](https://aka.ms/LIMBODATINGCHAT) and [Microsoft Ignite 2024](https://ignite.microsoft.com/en-US/sessions?search=LAB401). The primary difference will be in the initial setup steps and the Azure subscription used.
 
 <br/>
 

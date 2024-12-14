@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "--- ✅ | POST-PROVISIONING: Update RBAC permissions---"
 # Use this when pre-provisioning with azd
-#   - Refresh env: azd env refresh -e AITOUR
+#   - Refresh env: azd env refresh -e LIMBODATINGCHAT
 #   - Run this script: bash docs/workshop/0-setup/azd-update-roles.sh
 #   - Then run hooks: azd hooks run postprovision
 #   - Should update database, index and deploy app

@@ -31,8 +31,8 @@ Here's a reminder of the Azure Application Architecture - let's check our provis
 1. **Sign in** → Use the `Username` and `Password` from the "Azure Credentials" section in your Skillable Lab instructions panel.
 1. You may be presented with a "Welcome to Microsoft Azure" screen. Click **Cancel** (to dismiss it) or click **Get Started** (to take an introductory tour of the Azure Portal).
 1. You should be taken directly to the Resource Groups page for your subscription.
-    - You should see an `rg-AITOUR` resource. This was created for you and contains all the resources needed to build and deploy your RAG-based copilot. 
-1. **Click** `rg-AITOUR` to visit the Resource Group overview page.
+    - You should see an `rg-LIMBODATINGCHAT` resource. This was created for you and contains all the resources needed to build and deploy your RAG-based copilot. 
+1. **Click** `rg-LIMBODATINGCHAT` to visit the Resource Group overview page.
     - **Check:** Deployments (under "Essentials") - You should see: *35 succeeded*. 
     - **Check:** Resources (in Overview) - You should see: *15 resources*.
 
@@ -72,7 +72,7 @@ Here's a reminder of the Azure Application Architecture - let's check our provis
 [Azure Container Apps](https://learn.microsoft.com/azure/container-apps/overview) will host the endpoint used to serve the Contoso Chat application on the Contoso Outdoors website. The Azure provisioning should have deployed a default Azure Container App to this endpoint.
 
 1. Return to the Azure Portal tab
-1. Visit the `rg-AITOUR` Resource group page
+1. Visit the `rg-LIMBODATINGCHAT` Resource group page
 1. Click the `Container App` resource to display the Overview page
 1. Look for `Application Url` (at top right), and click it to launch in new tab 
 1. You should see: A `Hello World` message on the screen (confirming app was deployed)
@@ -85,7 +85,7 @@ Here's a reminder of the Azure Application Architecture - let's check our provis
 
 The Azure CosmosDB resource holds the customer data for our application. It is a noSQL database that contains JSON data for each customer, and the prior purchases they made.
 
-1. Switch to the **Azure Portal** tab and display the `rg-AITOUR` resource group Overview
+1. Switch to the **Azure Portal** tab and display the `rg-LIMBODATINGCHAT` resource group Overview
 1. **Click** the `Azure Cosmos DB account` resource name to visit its details page
 1. **Click** `Data Explorer` in the top-nav menu 
     - dismiss the popup dialog to skip the movie
@@ -98,7 +98,7 @@ The Azure CosmosDB resource holds the customer data for our application. It is a
 
 The Azure AI Search resources contains the product index for our retailer's product catalog. It is the information **retrieval** service for **R**AG solutions, using sentence similarity and semantic ranking to return the most relevant results for a given customer query.
 
-1. Switch to the Azure Portal tab and display the  `rg-AITOUR` resource group Overview
+1. Switch to the Azure Portal tab and display the  `rg-LIMBODATINGCHAT` resource group Overview
 1. Click the `Search service` resource name to visit its details page
 1. Click `Search Explorer` in the top-nav menu  
     - see Search explorer with default index `contoso-products`

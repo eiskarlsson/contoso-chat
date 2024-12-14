@@ -197,17 +197,17 @@ To build code-first solutions, we will need to use the Azure SDK from our develo
 1. Run the commands below in the same Visual Studio Code terminal.
 
     ``` title=""
-    azd env set AZURE_LOCATION francecentral -e AITOUR --no-prompt
+    azd env set AZURE_LOCATION francecentral -e LIMBODATINGCHAT --no-prompt
     ```
     ``` title=""
-    azd env refresh -e AITOUR 
+    azd env refresh -e LIMBODATINGCHAT 
     ```
 
     (Press ENTER to select the default Azure subscription presented). 
 
 2. Verify the environment variables were refreshed.
 
-    The above commands will have created a `.azure/AITOUR/.env` file in your GitHub Codespaces environment with all the configuration information we will need to build our app. You can open the file from the VS Code file explorer **or** you can run the command below to view the values in the terminal:
+    The above commands will have created a `.azure/LIMBODATINGCHAT/.env` file in your GitHub Codespaces environment with all the configuration information we will need to build our app. You can open the file from the VS Code file explorer **or** you can run the command below to view the values in the terminal:
 
     ``` title=""
     azd env get-values
