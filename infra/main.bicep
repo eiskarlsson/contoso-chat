@@ -79,10 +79,10 @@ param cosmosAccountName string = ''
 param openAiEmbeddingDeploymentName string = 'text-embedding-ada-002'
 
 @description('The name of the AI search index')
-param aiSearchIndexName string = 'contoso-products'
+param aiSearchIndexName string = 'contoso-users'
 
 @description('The name of the Cosmos database')
-param cosmosDatabaseName string = 'contoso-outdoor'
+param cosmosDatabaseName string = 'limbo-dating-database'
 
 @description('The name of the Cosmos container')
 param cosmosContainerName string = 'customers'
@@ -163,7 +163,7 @@ module cosmos 'core/database/cosmos/sql/cosmos-sql-db.bicep' = {
   scope: resourceGroup
   params: {
     accountName: !empty(cosmosAccountName) ? cosmosAccountName : 'cosmos-contoso-${resourceToken}'
-    databaseName: 'contoso-outdoor'
+    databaseName: 'limbo-dating-database'
     location: location
     tags: union(tags, {
       defaultExperience: 'Core (SQL)'

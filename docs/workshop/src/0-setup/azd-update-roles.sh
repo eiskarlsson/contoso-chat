@@ -69,7 +69,7 @@ az cosmosdb sql role assignment create \
         --account-name "${COSMOSDB_NAME}" \
         --resource-group "${AZURE_OPENAI_RESOURCE_GROUP}" \
         --role-definition-name "Cosmos DB Built-in Data Contributor" \
-        --scope "/dbs/contoso-outdoor/colls/customers" \
+        --scope "/dbs/limbo-dating-database/colls/customers" \
         --principal-id "${PRINCIPAL_ID}"
 
 

@@ -5,7 +5,7 @@ from azure.cosmos import CosmosClient
 from sys import argv
 import os
 import pathlib
-from contoso_chat.product import product
+from api.contoso_chat.product import user
 from azure.identity import DefaultAzureCredential
 import prompty
 import prompty.azure
@@ -21,27 +21,27 @@ Tracer.add("PromptyTracer", json_tracer.tracer)
 
 
 @trace
-def get_customer(customerId: str) -> str:
+def get_user(userId: str) -> str:
     try:
         url = os.environ["COSMOS_ENDPOINT"]
         client = CosmosClient(url=url, credential=DefaultAzureCredential())
-        db = client.get_database_client("contoso-outdoor")
-        container = db.get_container_client("customers")
-        response = container.read_item(item=str(customerId), partition_key=str(customerId))
-        response["orders"] = response["orders"][:2]
+        db = client.get_database_client("limbo-dating-database")
+        container = db.get_container_client("users")
+        response = container.read_item(item=str(userId), partition_key=str(userId))
+        # response["orders"] = response["orders"][:2]
         return response
     except Exception as e:
-        print(f"Error retrieving customer: {e}")
+        print(f"Error retrieving user: {e}")
         return None
 
 
 @trace
-def get_response(customerId, question, chat_history):
-    print("getting customer...")
-    customer = get_customer(customerId)
-    print("customer complete")
-    context = product.find_products(question)
-    print("products complete")
+def get_response(userId, question, chat_history):
+    print("getting user...")
+    user = get_user(userId)
+    print("user complete")
+    context = user.find_users(question)
+    print("users complete")
     print("getting result...")
 
     model_config = {
@@ -51,7 +51,7 @@ def get_response(customerId, question, chat_history):
 
     result = prompty.execute(
         "chat.prompty",
-        inputs={"question": question, "customer": customer, "documentation": context},
+        inputs={"question": question, "user": user, "documentation": context},
         configuration=model_config,
     )
     return {"question": question, "answer": result, "context": context}

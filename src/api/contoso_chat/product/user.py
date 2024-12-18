@@ -38,14 +38,14 @@ def generate_embeddings(queries: List[str]) -> str:
 
 
 @trace
-def retrieve_products(items: List[Dict[str, any]], index_name: str) -> str:
+def retrieve_users(items: List[Dict[str, any]], index_name: str) -> str:
     search_client = SearchClient(
         endpoint=os.environ["AZURE_SEARCH_ENDPOINT"],
         index_name=index_name,
         credential=DefaultAzureCredential(),
     )
 
-    products = []
+    users = []
     for item in items:
         vector_query = VectorizedQuery(
             vector=item["embedding"], k_nearest_neighbors=3, fields="contentVector"
@@ -71,19 +71,19 @@ def retrieve_products(items: List[Dict[str, any]], index_name: str) -> str:
         ]
 
         # Remove duplicates
-        products.extend([i for i in docs if i["id"] not in [x["id"] for x in products]])
+        users.extend([i for i in docs if i["id"] not in [x["id"] for x in products]])
 
-    return products
+    return users
 
 
-def find_products(context: str) -> Dict[str, any]:
+def find_users(context: str) -> Dict[str, any]:
     # Get product queries
     model_config = {
         "azure_endpoint": os.environ["AZURE_OPENAI_ENDPOINT"],
         "api_version": os.environ["AZURE_OPENAI_API_VERSION"],
     }
     queries = prompty.execute(
-        "product.prompty", 
+        "user.prompty", 
         configuration=model_config,
         inputs={"context":context}
         )
@@ -91,11 +91,11 @@ def find_products(context: str) -> Dict[str, any]:
     # Generate embeddings
     items = generate_embeddings(qs)
     # Retrieve products
-    products = retrieve_products(items, "contoso-products")
+    products = retrieve_users(items, "contoso-users")
     return products
 
 
 if __name__ == "__main__":
-    context = "Can you use a selection of tents and backpacks as context?"
-    answer = find_products(context)
+    context = "Can you use a selection of users as context?"
+    answer = find_users(context)
     print(json.dumps(answer, indent=2))

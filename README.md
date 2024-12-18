@@ -222,7 +222,7 @@ We can now proceed with next steps - click to expand for detailed instructions.
     - Verify that it has created a `customers` database with data items in it
 1. Click on the `Azure AI Search` resource in the list
     - Visit the resource detail page - click "Search Explorer"
-    - Verify that it has created a `contoso-products` index with data items in it
+    - Verify that it has created a `contoso-users` index with data items in it
 1. Click on the `Azure Container Apps` resource in the list
     - Visit the resource detail page - click `Application Url`
     - Verify that you see a hosted endpoint with a `Hello World` message on page

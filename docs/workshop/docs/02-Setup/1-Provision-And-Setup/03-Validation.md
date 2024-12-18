@@ -89,7 +89,7 @@ The Azure CosmosDB resource holds the customer data for our application. It is a
 1. **Click** the `Azure Cosmos DB account` resource name to visit its details page
 1. **Click** `Data Explorer` in the top-nav menu 
     - dismiss the popup dialog to skip the movie
-    - see: `contoso-outdoor` container with `customers` database
+    - see: `limbo-dating-database` container with `customers` database
     - click `customers`, then select `Items`
     - you should see: **12 data items in database**
 
@@ -101,7 +101,7 @@ The Azure AI Search resources contains the product index for our retailer's prod
 1. Switch to the Azure Portal tab and display the  `rg-LIMBODATINGCHAT` resource group Overview
 1. Click the `Search service` resource name to visit its details page
 1. Click `Search Explorer` in the top-nav menu  
-    - see Search explorer with default index `contoso-products`
+    - see Search explorer with default index `contoso-users`
     - **click** "Search" with no other input
     - you will see: Results dialog filled with index data for the entire product database.
 1. Enter `sleeping bag` in the text box, and click Search
@@ -162,7 +162,7 @@ To implement this RAG pattern, we need to execute three steps:
 In the previous section we setup the data sources (provisioning infra) and populated them with data (post-provisioning scripts) as follows:
 
 1. **Azure CosmosDB** - loaded **12 records** from `data/customer_info`, got _customers_ database.
-1. **Azure AI Search** - loaded **20 records** from `data/product_info`, got _contoso-products_ index.
+1. **Azure AI Search** - loaded **20 records** from `data/product_info`, got _contoso-users_ index.
 
 This checks off the first two idents from our RAG checklist above. Now, let's see how we can achieve the thirst ep with a code-first approach that makes use of the Azure AI Search, Azure CosmosDB and Azure OpenAI services through their Azure SDKs.
 
