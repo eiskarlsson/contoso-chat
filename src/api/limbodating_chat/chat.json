@@ -1,0 +1,16 @@
+{
+    "id":"97001",
+    "name":"sasasa",
+    "mail":"sasha_m3x@mail.ru",
+    "birth":"1973-09-21",
+    "gender":"Female",
+    "orientation":" 1",
+    "p_orientation":"2",
+    "city":"Елин Пелин",
+    "area":"София",
+    "country":"България",
+    "photo_id":"1010000",
+    "visible":"Y",
+    "question": "find me a match", 
+    "chat_history": []
+}

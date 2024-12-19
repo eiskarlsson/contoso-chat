@@ -5,7 +5,7 @@ from azure.cosmos import CosmosClient
 from sys import argv
 import os
 import pathlib
-from api.contoso_chat.product import user
+from api.limbodating_chat.product import user
 from azure.identity import DefaultAzureCredential
 import prompty
 import prompty.azure

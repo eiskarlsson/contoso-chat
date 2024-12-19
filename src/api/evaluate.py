@@ -10,7 +10,7 @@ import jsonlines
 import pandas as pd
 from prompty.tracer import trace
 from tracing import init_tracing
-from contoso_chat.chat_request import get_response
+from limbodating_chat.chat_request import get_response
 
 # %% [markdown]
 # ## Get output from data and save to results jsonl file

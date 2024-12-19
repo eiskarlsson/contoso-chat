@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 from tracing import init_tracing
 
-from contoso_chat.chat_request import get_response
+from limbodating_chat.chat_request import get_response
 
 base = Path(__file__).resolve().parent
 
