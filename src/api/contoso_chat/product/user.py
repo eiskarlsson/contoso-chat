@@ -91,8 +91,8 @@ def find_users(context: str) -> Dict[str, any]:
     # Generate embeddings
     items = generate_embeddings(qs)
     # Retrieve products
-    products = retrieve_users(items, "contoso-users")
-    return products
+    users = retrieve_users(items, "contoso-users")
+    return users
 
 
 if __name__ == "__main__":
