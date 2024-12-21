@@ -35,7 +35,7 @@ echo "--- ✅ | 2. Post-provisioning - ready execute notebooks ---"
 
 echo "Populating data ...."
 jupyter nbconvert --execute --to python --ExecutePreprocessor.timeout=-1 data/users/create-cosmos-db.ipynb > /dev/null
-jupyter nbconvert --execute --to python --ExecutePreprocessor.timeout=-1 data/mamtches_info/create-azure-search.ipynb > /dev/null
+jupyter nbconvert --execute --to python --ExecutePreprocessor.timeout=-1 data/matches_info/create-azure-search.ipynb > /dev/null
 echo "--- ✅ | 3. Post-provisioning - populated data ---"
 
 #echo "Running evaluations ...."
