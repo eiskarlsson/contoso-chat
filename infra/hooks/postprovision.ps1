@@ -18,6 +18,9 @@ Write-Host "cosmosServiceName: $cosmosService"
 $cosmosService = $env:COSMOS_ENDPOINT
 Write-Host "cosmosServiceEndpoint: $cosmosService"
 
+$cosmosService = $env:ACCOUNT_KEY
+Write-Host "cosmosServiceAccountKey: $cosmosService"
+
 $azureSearchEndpoint = $env:AZURE_SEARCH_ENDPOINT
 Write-Host "azureSearchEndpoint: $azureSearchEndpoint"
 
